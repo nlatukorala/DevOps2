@@ -6,6 +6,7 @@ pipeline {
             steps {
                 echo 'Building..'
                  sh 'python3 HelloWorld.py'
+                sh 'javac SimpleCalculatorTest.java'
                  
             }
         }
@@ -13,6 +14,7 @@ pipeline {
             steps {
                 echo 'Testing..'
                 sh 'python3 test_calculator.py'
+                sh 'java SimpleCalculatorTest'
             }
         }
         stage('Deploy') {
