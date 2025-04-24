@@ -1,6 +1,6 @@
 public class SimpleCalculatorTest {
 
-    SimpleCalculator calculator = new SimpleCalculator();
+    private static SimpleCalculator calculator = new SimpleCalculator();
     
     public static String testAdd(int x, int y, int expected) {
         int result = calculator.add(x, y);
