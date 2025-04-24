@@ -16,5 +16,6 @@ public class SimpleCalculatorTest {
         System.out.println("Testing add() method");
         System.out.println("add(2,3):"+testAdd(2,3,5));
         System.out.println("add(10,5):"+testAdd(10,5,15));
+        System.out.println("add(20,5):"+testAdd(20,5,25));
     }
 }
