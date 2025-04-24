@@ -10,7 +10,7 @@ public class SimpleCalculatorTest {
         return "Failed";
     }
 
-    public static void main(){
+    public static void main(String[] args){
         System.out.println("Testing SimpleCalculator");
         System.out.println("---------------------------");
         System.out.println("Testing add() method");
